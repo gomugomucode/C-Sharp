@@ -1,0 +1,15 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+        int sum  = 0 ;
+       
+        for (int i = 1 ; i <= 100 ; i ++){
+            sum += i
+            Console.WriteLine(sum);
+        }
+        
+    }
+}
